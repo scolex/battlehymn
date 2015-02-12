@@ -1,0 +1,47 @@
+
+.battlefield-background {
+    fill: #0C090A;
+}
+
+.tile polygon {
+    pointer-events: all;
+    fill: #303332;
+    stroke-width: 0.5;
+    stroke: #0C090A;
+}
+
+.tile polygon:hover {
+    fill: grey;
+}
+
+.tile-stronghold-p1 polygon {
+    fill: darkblue;
+}
+
+.tile-stronghold-p2 polygon {
+    fill: darkred;
+}
+
+.tile-unit-p1 polygon {
+    fill: blue;
+}
+
+.tile-unit-p2 polygon {
+    fill: red;
+}
+
+.tile-selected {
+    stroke-width: 3;
+    stroke: red;
+    color: red;
+}
+
+.power-symbol polygon {
+    fill: black;
+}
+
+.power-symbol text {
+    font-size: 12;
+    font-family: Arial,Helvetica;
+    font-weight: bold;
+}
